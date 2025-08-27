@@ -21,6 +21,8 @@ set(msg_files
   "msg/VescStatus.msg"
   "msg/Wheel.msg"
   "msg/Wheels.msg"
+  "msg/BatteryInfo.msg"
+  "msg/SamplerFeedback.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
