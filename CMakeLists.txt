@@ -23,6 +23,7 @@ set(msg_files
   "msg/Wheels.msg"
   "msg/BatteryInfo.msg"
   "msg/SamplerFeedback.msg"
+  "msg/CalibrateAxis.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
