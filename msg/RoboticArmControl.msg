@@ -34,6 +34,10 @@ geometry_msgs/Twist velocity_cmd
 # Maps to 'InversePositionMode' (Position + Rotation)
 geometry_msgs/Pose pose_cmd
 
+# Gripper Control
+# Range: [-1, 1] where -1 = open, 0 = neutral, 1 = close
+float64 gripper
+
 # =========================================
 # Flags
 # =========================================
