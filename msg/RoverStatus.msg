@@ -22,5 +22,4 @@ int32 CONTROL_MODE_SURFACE_SAMPLER_AUTONOMY = 1024 # 1 << 10
 
 std_msgs/Header header
 int32 communication_state
-bool pad_connected
 int32 control_mode
