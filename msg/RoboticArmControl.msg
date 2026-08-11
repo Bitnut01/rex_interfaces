@@ -7,6 +7,7 @@ uint8 ACTION_INV_KIN_JOYSTICK = 2
 uint8 ACTION_INV_KIN_POSITION = 3
 uint8 ACTION_INV_KIN_OFFSET = 4
 uint8 ACTION_GO_TO_REFERENCE = 5
+uint8 ACTION_USE_MOVEIT_PLANNING = 6
 
 # =========================================
 # Header
