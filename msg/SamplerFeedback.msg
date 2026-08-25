@@ -3,4 +3,64 @@ float32 weight_a
 float32 weight_b
 float32 weight_c
 float32 ph
-float32 distance
+
+float32 platform_pos
+float32 drill_pos
+float32 container_pos
+float32 drill_rot_vel
+float32 vacuum_suction_vel
+float32 brush_rot_vel
+
+uint8 control_type
+uint8 autonomy_state
+uint8 goal_state
+
+# States
+uint8 STATE_IDLE = 0
+uint8 STATE_CALIBRATE_PLATFORM = 1
+uint8 STATE_CALIBRATE_DRILL = 2
+uint8 STATE_CALIBRATE_CONTAINER = 3
+uint8 STATE_CALIBRATE_JOINTS = 23
+
+uint8 STATE_MOVE_PLATFORM_DOWN = 4
+uint8 STATE_GET_SURFACE_SAMPLE = 5
+uint8 STATE_DRILLING = 6
+uint8 STATE_RECOVER_DRILL = 7
+
+uint8 STATE_MOVE_DRILL_UP = 8
+uint8 STATE_MOVE_PLATFORM_UP = 9
+
+uint8 STATE_MOVE_CONTAINER = 10
+uint8 STATE_MOVE_DRILL_CLOSER = 11
+uint8 STATE_PUT_DEEP_SAMPLE = 12
+uint8 STATE_HIDE_DRILL = 13
+
+uint8 STATE_MOVE_PLATFORM_CLOSER = 14
+uint8 STATE_PUT_SURFACE_SAMPLE = 15
+uint8 STATE_MOVE_PLATFORM_BACK = 16
+uint8 STATE_HIDE_CONTAINER = 17
+
+uint8 STATE_MEASURE_SAMPLES = 18
+
+uint8 STATE_STOP = 19
+uint8 STATE_ABORT = 20
+uint8 STATE_DONE = 21
+
+# Goal States
+uint8 GOAL_IDLE=0
+uint8 GOAL_SENT=1
+uint8 GOAL_ACCEPTED=2
+uint8 GOAL_EXECUTING=3
+uint8 GOAL_SUCCEEDED=4
+uint8 GOAL_CANCELED=5
+uint8 GOAL_FAILED=6
+
+#Control Types
+
+uint8 NO_SAMPLER = 0
+uint8 AUTONOMY = 1
+uint8 MANUAL = 2
+
+
+
+

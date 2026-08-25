@@ -18,6 +18,8 @@ set(msg_files
   "msg/RoverControl.msg"
   "msg/RoverStatus.msg"
   "msg/SamplerControl.msg"
+  "msg/SamplerCanCmd.msg"
+  "msg/SamplerCanStatus.msg"
   "msg/VescMotorCommand.msg"
   "msg/VescStatus.msg"
   "msg/Wheel.msg"
