@@ -9,4 +9,4 @@ uint8 STATUS_FAILURE   = 3
 uint8 status
 RoboticArmTask[] tasks
 bool[] completed_tasks
-int32 mission_id
+string mission_id

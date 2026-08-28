@@ -7,4 +7,4 @@ std_msgs/Header header
 
 uint8 action
 RoboticArmTask[] tasks
-int32 mission_id
+string mission_id
