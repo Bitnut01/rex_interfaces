@@ -28,6 +28,10 @@ set(msg_files
   "msg/SamplerFeedback.msg"
   "msg/CalibrateAxis.msg"
   "msg/RoboticArmControl.msg"
+  "msg/RoboticArmAutonomy.msg"
+  "msg/RoboticArmTask.msg"
+  "msg/RoboticArmMissionFeedback.msg"
+  "msg/RoboticArmCheckResult.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
